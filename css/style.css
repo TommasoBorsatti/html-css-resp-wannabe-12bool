@@ -1,5 +1,47 @@
 
-h2 {
+/* distanziamento */
+
+section{
+  padding: 20px 0;
+}
+
+.pd-15{
+  padding: 15px 0;
+}
+
+/* typo */
+
+h2, h3, p{
   text-align: center;
-  color: blue;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 22px;
+}
+
+/* immagini */
+
+.img-box{
+  padding: 15px;
+  text-align: center;
+}
+
+.img-box > img{
+  width: 90%;
+}
+
+.img-box > img.first-row{
+  height: 20vh;
+
+}
+
+/* sfondi */
+
+.bg-grey{
+  background-color: #f9f9f9
+
 }
