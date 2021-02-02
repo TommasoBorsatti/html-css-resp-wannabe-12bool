@@ -9,6 +9,10 @@ section{
   padding: 15px 0;
 }
 
+.mg-10{
+  margin: 10px 0;
+}
+
 /* typo */
 
 h2, h3, p{
@@ -39,9 +43,20 @@ h3{
 
 }
 
-/* sfondi */
+/* sfondi colorati */
 
 .bg-grey{
   background-color: #f9f9f9
+}
 
+.bg-blue{
+  background-color: #428BCA
+}
+
+/* mix */
+
+.circle{
+  border-radius: 50%;
+  border: 1px solid transparent;
+  margin: 6px 0;
 }
