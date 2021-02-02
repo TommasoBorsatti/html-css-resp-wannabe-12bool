@@ -41,7 +41,11 @@ h3{
 
 .img-box > img.first-row{
   height: 15vh;
+  min-width: 180px;
+}
 
+.img-box > img.little{
+max-width: 150px;
 }
 
 /* sfondi colorati */
